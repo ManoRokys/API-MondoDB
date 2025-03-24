@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const dbUser = "rokylobinho";
-const dbPassword = "yLRzSdIgnZ5RkJd7";
+const dbPassword = "*****************";
 const connect = () => {
     mongoose.connect(
         `mongodb+srv://${dbUser}:${dbPassword}@cluster0.aj4uf.mongodb.net/api-theanimes?retryWrites=true&w=majority&appName=Cluster0`
